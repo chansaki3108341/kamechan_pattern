@@ -1,0 +1,1 @@
+# kusagame_pattern
