@@ -16,7 +16,7 @@
 ## 実行方法
 
 ```bash
-python3 kusagame_pattern.py
+python3 kamechan_pattern.py
 ```
 
 ## 出力例（ターミナル）
