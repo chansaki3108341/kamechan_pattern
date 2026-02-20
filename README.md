@@ -84,8 +84,8 @@ python3 kamechan_pattern.py
 
 ### 2) 初期化（`InitParams`）
 
-* `N`: グリッドサイズ（大きいほど高精細・計算コスト増）
-* `patches`, `patch_size`: パッチ数・サイズ（種まきの強さ）
+* `N`: グリッドサイズ
+* `patches`, `patch_size`: パッチ数・サイズ
 * `patch_U`, `patch_V`: パッチ内の U/V 値
 * `noise`: 初期ノイズ強度
 
