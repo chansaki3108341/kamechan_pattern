@@ -18,12 +18,10 @@
 2成分 \,U, V\, の反応拡散方程式を離散化して解きます:
 
 ```math
-\[
 \frac{\partial U}{\partial t} = D_u \nabla^2 U - UV^2 + F(1-U),\quad
 \frac{\partial V}{\partial t} = D_v \nabla^2 V + UV^2 - (F+k)V
-\]
 ```
-
+　
 - **初期条件**: ランダムなパッチ（U↓/V↑）とノイズを散布  
 - **境界条件**: FFT を使う都合で **周期境界**（トーラス）  
 - **時間積分**: IMEX  
